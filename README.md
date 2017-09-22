@@ -4,7 +4,8 @@
 # Table Of Content
 ## heading one
 ### heading two
-### [Readme File](#readme-file)
+### Trying to link Readme File 
+[Readme File](#readme-file)
 ### as
 ### asas
 ### You can also write:
@@ -83,7 +84,7 @@
 ### as
 ### as 
   
-### Let's refer headings here. [Link To Header 1](#heading-one)
+### Let's refer headings here. [Header 1](#heading-one)
 ### creating another heading [heading 2](#heading-two)
 
-Readme file ..!!! this is demo for linking headers in the. 
+### readme file ..!!! this is demo for linking headers in the. 
