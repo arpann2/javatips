@@ -8,5 +8,5 @@
 
   
   
-Let's refer headings here. (#heading-one)
+Let's refer headings here. [link](#heading-one)
 creating another heading ref (#heading-two)
