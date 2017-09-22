@@ -4,7 +4,7 @@
 # Table Of Content
 ## heading one
 ### heading two
-### [Readme File](#readme-file)
+# [Readme File](#readme-file)
 ### as
 ### asas
 ### asas
@@ -79,7 +79,7 @@
 ### as
 ### as 
   
-### Let's refer headings here. [Link To Header](#heading-one)
-### creating another heading [link to header](#heading-two)
+### Let's refer headings here. [Link To Header 1](#heading-one)
+### creating another heading [link to header 2](#heading-two)
 
-this is demo for linking headers in the readme file. 
+this is demo for linking headers in the #readme file. 
