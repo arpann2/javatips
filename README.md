@@ -4,7 +4,7 @@
 # Table Of Content
 ## heading one
 ### heading two
-### <a name="anch1"> </a> heading three
+### [Heading Three](#anch1)  
 ### as
 ### asas
 
@@ -108,7 +108,7 @@ trying to connect [Readme File][] .!!
 ### [Readme File](#readme-file)
 
 ### You can write like this:
-- this is demo for [Heading 3](#anch1)
+- this is demo for <a name="anch1"> </a>  Heading 3
 - dis is demo
 
 
