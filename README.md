@@ -1,10 +1,10 @@
 # javatips
 
 
-## Table Of Content
-### heading one
+# Table Of Content
+## heading one
 ### heading two
-### [link](#readme-file)
+### [Readme File](#readme-file)
 ### as
 ### asas
 ### asas
