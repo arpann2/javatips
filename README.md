@@ -4,7 +4,7 @@
 # Table Of Content
 ## heading one
 ### heading two
-### Readme File(#readme-file)
+### Readme File
 ### as
 ### asas
 ### You can also write:
@@ -86,7 +86,7 @@
 ### Let's refer headings here. [Header 1](#heading-one)
 ### creating another heading [heading 2](#heading-two)
 
-trying to connect readme file .!! 
+trying to connect [Readme File][] .!! 
 
 
 
