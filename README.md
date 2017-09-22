@@ -84,6 +84,6 @@
 ### as 
   
 ### Let's refer headings here. [Link To Header 1](#heading-one)
-### creating another heading [headering 2](#heading-two)
+### creating another heading [heading 2](#heading-two)
 
-this is demo for linking headers in the readme file. 
+Readme file ..!!! this is demo for linking headers in the. 
