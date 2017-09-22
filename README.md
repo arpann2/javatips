@@ -1,9 +1,9 @@
 # javatips
 
 
-Table Of Content
-heading one
-heading-two
+##Table Of Content
+###heading one
+###heading two
 
 
   
