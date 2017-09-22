@@ -4,14 +4,18 @@
 # Table Of Content
 ## heading one
 ### heading two
-# [Readme File](#readme-file)
+### [Readme File](#readme-file)
 ### as
 ### asas
+### You can also write:
+- This is first line
+- This is second line
 ### asas
 ### asas
 ### asas
 ### asas
-### asas
+> this is also demo
+> this is another demo
 ### asas
 ### asas
 ### asas
@@ -80,6 +84,6 @@
 ### as 
   
 ### Let's refer headings here. [Link To Header 1](#heading-one)
-### creating another heading [link to header 2](#heading-two)
+### creating another heading [headering 2](#heading-two)
 
-this is demo for linking headers in the #readme file. 
+this is demo for linking headers in the readme file. 
