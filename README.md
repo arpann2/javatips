@@ -4,7 +4,7 @@
 ## Table Of Content
 ### heading one
 ### heading two
-### [link to header](#readme-file)
+### [link](#readme-file)
 ### as
 ### asas
 ### asas
