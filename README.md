@@ -5,7 +5,8 @@
 ## heading one
 ### heading two
 ### [Heading Three](#anch1)  
-### as
+### [Java Tips - 2](#anch2)
+### [Java Tips - 3](#anch3)
 ### asas
 
 ### You can also write:
@@ -111,5 +112,70 @@ trying to connect [Readme File][] .!!
 - this is demo for <a name="anch1"> </a>  Heading 3
 - dis is demo
 
+### asas
+### asas
+### asas
+### asa
+### assa
+### ass
+### asas
+### asas
+### asa
+### assa
+### assa
+### asa
+### as
+### asa
+### asas
+### asas
+### asa
+### assa
+### ass
+### asa
+### asa
+### asas
+### asa
+### ass
+### asa
+### assa
+### ass
+### asas
+### asa
+### assa
+### assa
+Another java Tips <a name"anch2"> </a> Java tip 2
+### asas
+### asas
+### asas
+### asa
+### assa
+### ass
+### asas
+### asas
+### asa
+### assa
+### assa
+### asa
+### as
+### asa
+### asas
+### asas
+### asa
+### assa
+### ass
+### asa
+### asa
+### asas
+### asa
+### ass
+### asa
+### assa
+### ass
+### asas
+### asa
+### assa
+### assa
+### ass
+<a name="anch3">Java Tips 3 </a> 
 
 
