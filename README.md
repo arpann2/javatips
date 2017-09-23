@@ -109,7 +109,7 @@ trying to connect [Readme File][] .!!
 ### [Readme File](#readme-file)
 
 ### You can write like this:
-- this is demo for <a name="anch1"> </a>  Heading 3
+- this is demo for <a name="anch1"> Heading 3 </a>  
 - dis is demo
 
 ### asas
@@ -143,7 +143,7 @@ trying to connect [Readme File][] .!!
 ### asa
 ### assa
 ### assa
-Another java Tips <a name"anch2"> </a> Java tip 2
+Another java Tips <a name"anch2"> Java tip 2 </a> 
 ### asas
 ### asas
 ### asas
