@@ -61,7 +61,7 @@ process, and so on.
 }
 ```
 
-Convert String of List to Map using Java 8 Streams api (#anch7)
+<a name="anch6">7. Convert String of List to Map using Java 8 Streams api </a>
 ```java
 List<String> cars = Arrays.asList("Ford", "Focus", "Toyota", "Yaris", "Nissan", "Micra", "Honda", "Civic");
 
@@ -73,5 +73,5 @@ List<String> cars = Arrays.asList("Ford", "Focus", "Toyota", "Yaris", "Nissan", 
                 .boxed() // convert into integer
                 .collect(Collectors.toMap(i -> cars.get(i), i-> cars.get(i+1))); // now, your i is 0,2,4,6 not 0,1,2,3,4,5,6,7
 
-        System.out.println(carAgain);
+        System.out.println(carAgain); // output: {Toyota=Yaris, Ford=Focus, Honda=Civic, Nissan=Micra}
 ```
