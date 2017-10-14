@@ -8,7 +8,7 @@
 #### 4. [Generate alphanumeric password](#anch4)
 #### 5. [Generate fake email address using Faker class](#anch5)
 #### 6. [To kill openbrowser and run new instance of browser use WindowsUtils class in selenium](#anch6)
-#### 7. [Convert String of List to Map using Java 8 Streams api] [#anch7]
+#### 7. [Convert String of List to Map using Java 8 Streams api] (#anch7)
 
 ---------------------------------------------------------------------------------
 <a name="anch1">1. Get method name within method</a>
