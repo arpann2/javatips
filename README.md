@@ -8,6 +8,7 @@
 #### 4. [Generate alphanumeric password](#anch4)
 #### 5. [Generate fake email address using Faker class](#anch5)
 #### 6. [To kill openbrowser and run new instance of browser use WindowsUtils class in selenium](#anch6)
+#### 7. [Convert String of List to Map using Java 8 Streams api] [#anch7]
 
 ---------------------------------------------------------------------------------
 <a name="anch1">1. Get method name within method</a>
@@ -58,4 +59,19 @@ process, and so on.
  WindowsUtils.killByName("firefox.exe");
 // create new browser instance below 
 }
+```
+
+Convert String of List to Map using Java 8 Streams api (#anch7)
+```java
+List<String> cars = Arrays.asList("Ford", "Focus", "Toyota", "Yaris", "Nissan", "Micra", "Honda", "Civic");
+
+// With, iterator we can define a start value and a function that will calculate the next ints based on the previous element.
+// iterator creates an infinite stream, so I've used limit to create a stream containing just four (car.size()/2) elements.
+
+        Map<String, String> carAgain = IntStream.iterate(0, i -> i + 2) //0, 2, 4, 6
+                .limit(cars.size() / 2) // limit to 8/2 = 4 intead of infinite loop
+                .boxed() // convert into integer
+                .collect(Collectors.toMap(i -> cars.get(i), i-> cars.get(i+1))); // now, your i is 0,2,4,6 not 0,1,2,3,4,5,6,7
+
+        System.out.println(carAgain);
 ```
