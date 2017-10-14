@@ -61,7 +61,7 @@ process, and so on.
 }
 ```
 
-<a name="anch6">7. Convert String of List to Map using Java 8 Streams api </a>
+<a name="anch6">7. Convert String of List to Map using Java 8 Streams api</a>
 ```java
 List<String> cars = Arrays.asList("Ford", "Focus", "Toyota", "Yaris", "Nissan", "Micra", "Honda", "Civic");
 
