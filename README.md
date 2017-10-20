@@ -1,6 +1,6 @@
 # Java Tips
 --------------
-## Table Of Contents
+## Contents
 
 #### 1. [Get method name within method](#anch1)
 #### 2. [Generate random email address](#anch2)
@@ -17,7 +17,7 @@ To get method name within method --> Thread.currentThread().getStackTrace()[1].g
 ```
 
 
-<a name="anch2"> 2. Generate random email address</a>
+<a name="anch2"> 2. Generate random email address</a> 
 ```java
 public static String generateRandomEmailAddress() {
        return "qa"+ UUID.randomUUID().toString().replaceAll("-", "")+"@arpan.com";
@@ -61,7 +61,7 @@ process, and so on.
 }
 ```
 
-<a name="anch7">7. Convert String of List to Map using Java 8 Streams api</a>
+<a name="anch7">7. Convert String of List to Map using Java 8 Streams api</a> [TOP](#contents)
 ```java
 List<String> cars = Arrays.asList("Ford", "Focus", "Toyota", "Yaris", "Nissan", "Micra", "Honda", "Civic");
 
