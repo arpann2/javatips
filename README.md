@@ -77,7 +77,8 @@ List<String> cars = Arrays.asList("Ford", "Focus", "Toyota", "Yaris", "Nissan", 
         System.out.println(carAgain); // output: {Toyota=Yaris, Ford=Focus, Honda=Civic, Nissan=Micra}
 ```
 
-<a name="anch8">8. Read and Write file </a>
+<a name="anch8">8. Read and Write file</a>
+
 To read file..
 ```java
 String fileLocation = "your-file-location";
