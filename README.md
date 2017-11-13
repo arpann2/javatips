@@ -9,6 +9,7 @@
 #### 5. [Generate fake email address using Faker class](#anch5)
 #### 6. [To kill openbrowser and run new instance of browser use WindowsUtils class in selenium](#anch6)
 #### 7. [Convert String of List to Map using Java 8 Streams api](#anch7)
+#### 8. [Read and Write file](#anch8)
 
 ---------------------------------------------------------------------------------
 <a name="anch1">1. Get method name within method</a>
@@ -75,3 +76,15 @@ List<String> cars = Arrays.asList("Ford", "Focus", "Toyota", "Yaris", "Nissan", 
 
         System.out.println(carAgain); // output: {Toyota=Yaris, Ford=Focus, Honda=Civic, Nissan=Micra}
 ```
+
+<a name="anch8">8. Read and Write file </a>
+To read file..
+```java
+String fileLocation = "your-file-location";
+BufferedReader br = new BufferedReader(new FileReader(fileLocation));
+```java
+
+To write file.. 
+```java
+
+```java
