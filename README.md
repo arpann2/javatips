@@ -82,9 +82,9 @@ To read file..
 ```java
 String fileLocation = "your-file-location";
 BufferedReader br = new BufferedReader(new FileReader(fileLocation));
-```java
+```
 
 To write file.. 
 ```java
-
-```java
+Writer writer = new FileWriter("file-location-in-string");
+```
