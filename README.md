@@ -95,4 +95,4 @@ bWritter.write("hello world");
 bWritter.newLine();
 bWritter.write(String.valueOf(num));
 ```
-the method `bWritter.write(int)` will not write int value as it doesnt write `int` itself. It writes haracter represented by the `int`. So the `int` are mapped to other characters, making it an object and getting the `string` of it forces it to write the actual integer down, else autoboxing or unboxing will convert it back to a primitive int. So when you want to write `int` in `BufferedWriter`, use `String' representation of int or use `String.valueOf(intValue)`.
+the method `bWritter.write(int)` will not write `int` value as it doesn't write `int` itself. It writes character represented by the `int`. So the `int`s are mapped to other characters, making it an object and getting the `string` of it forces it to write the actual integer down, else autoboxing or unboxing will convert it back to a primitive int. So when you want to write `int` in `BufferedWriter`, use `String` representation of int (eg. "123") or use `String.valueOf(intValue)` and pass `int` value in the method.
