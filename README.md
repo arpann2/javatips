@@ -87,5 +87,12 @@ BufferedReader br = new BufferedReader(new FileReader(fileLocation));
 
 To write file.. 
 ```java
-Writer writer = new FileWriter("file-location-in-string");
+int num = 23;
+
+BufferedWriter bWritter = new BufferedWriter(new FileWriter(filePath));
+
+bWritter.write("hello world");
+bWritter.newLine();
+bWritter.write(String.valueOf(num));
 ```
+the method `bWritter.write(int)` will not write int value as it doesnt write `int` itself. It writes haracter represented by the `int`. So the `int` are mapped to other characters, making it an object and getting the `string` of it forces it to write the actual integer down, else autoboxing or unboxing will convert it back to a primitive int. So when you want to write `int` in `BufferedWriter`, use `String' representation of int or use `String.valueOf(intValue)`.
