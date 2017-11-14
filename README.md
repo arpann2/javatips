@@ -89,10 +89,10 @@ To write file..
 ```java
 int num = 23;
 
-BufferedWriter bWritter = new BufferedWriter(new FileWriter(filePath));
+BufferedWriter bWriter = new BufferedWriter(new FileWriter(filePath));
 
-bWritter.write("hello world");
-bWritter.newLine();
-bWritter.write(String.valueOf(num)); // or bWritter.write(Integer.toString(123)); or bWritter.write(123 + "");
+bWriter.write("hello world");
+bWriter.newLine();
+bWriter.write(String.valueOf(num)); // or bWriter.write(Integer.toString(123)); or bWriter.write(123 + "");
 ```
 the method `bWritter.write(int)` will not write `int` value as it doesn't write `int` itself. It writes character represented by the `int`. So the `int`s are mapped to other characters, making it an object and getting the `string` of it forces it to write the actual integer down, else autoboxing or unboxing will convert it back to a primitive int. So when you want to write `int` in `BufferedWriter`, use `String` representation of int (eg. "123") or use `String.valueOf(intValue)` and pass `int` value in the method.
